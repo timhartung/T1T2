@@ -54,5 +54,17 @@ The script extracts T1T2 values for specified regions from a single human subjec
 
 ## 4 Results
 
-The script will print the T1T2 values for selected to the terminal. It also creates a log file (T1T2_log.txt) in the subject folder, which includes the T1T2 ratio median and interquartile range for each ROI.
+The script will print the T1T2 values for selected ROIs to the terminal. It also creates a log file (T1T2_log.txt) in the subject folder, which includes the T1T2 ratio median and interquartile range for each ROI.
 
+The results are to be treated with caution for the following reasons:
+
+- There are currently no normative values from healthy population samples.
+- This version of the script does not contain lesion masking. If your participants have localized brain lesions, the values are biased as a result.
+- There are no automated quality checks for segmentation. Please check the ROI masks that are stored in the subdirectory "masks" in each subject folder. If the segmentation is incorrect, the T1T2 values are likely to also be incorrect.
+
+## 5 Alternative Strategies
+
+This script is meant to be fast and easy to use. In research settings more elaborate methods may be chosen. We currently suggest considering the following alternatives:
+
+- [Freesurfer](https://surfer.nmr.mgh.harvard.edu/) recon-all for more fine-grained and precise segmentation.
+- For clinical samples: Automatic lesion segmentation, e.g. using [LST](https://www.statistical-modelling.de/lst.html)
