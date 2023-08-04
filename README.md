@@ -14,13 +14,21 @@ This is a fully automated script to derive the standardized T1-weighted / T2-wei
 
 The script uses commands from Advanced Normalization Tools (ANTs) and FMRIB Software Library (FSL).
 
-The script has been tested and ran without error with the following software versions:
-- Ubuntu 20.04
-- ANTs 2.4.4
-- FSL 6.0.5
-
 To install ANTs, follow instructions the [ANTs github](http://stnava.github.io/ANTs/)
 
 To install FSL, follow instructions on the [FSL wiki](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation).
 
+### Recommended Software Versions
 
+The script has been developed and tested with the following software versions:
+- Ubuntu 20.04
+- ANTs 2.4.4
+- FSL 6.0.5
+
+## 2 Setup
+
+The script extracts T1T2 values for specified regions from a single human subject. We recommend the following folder structure:
+- one folder per subject, containing:
+  - one nifti file for the T1-weighted MR image
+  - one nifti file for the T2-weighted MR
+- directory name = subject ID
