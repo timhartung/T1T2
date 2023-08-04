@@ -30,5 +30,22 @@ The script has been developed and tested with the following software versions:
 The script extracts T1T2 values for specified regions from a single human subject. We recommend the following folder structure:
 - one folder per subject, containing:
   - one nifti file for the T1-weighted MR image
-  - one nifti file for the T2-weighted MR
+  - one nifti file for the T2-weighted MR image
 - directory name = subject ID
+
+## 3 Using the script
+
+1. On a Linux or Mac OS system, open a terminal and navigate to the directory where the script is located:
+`cd /path/to/script/location`
+2. Execute the script:
+`bash T1T2_script.sh`
+3. You will then be prompted to:
+   a. provide the path to the subject directory
+   b. provide the file name of the T1w nifti file
+   c. provide the file name of the T2w nifti file
+   d. choose a set of regions of interest (ROIs; white matter only OR white matter and deep gray matter structures)
+
+## 4 Results
+
+The script will print the T1T2 values for selected to the terminal. It also creates a log file (T1T2_log.txt) in the subject folder, which includes the T1T2 ratio median and interquartile range for each ROI.
+
