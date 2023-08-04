@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Save the current LC_NUMERIC setting
+original_lc_numeric=$LC_NUMERIC
+
+# Set LC_NUMERIC to en_US to use US American number format
+export LC_NUMERIC=en_US.UTF-8
+
 
 echo "-----------------------------------------------------------------------------"
 echo "T1T2 Processing Script by Hartung, Komnenic, Cooper, Junger, Scheel and Finke"
@@ -425,3 +431,6 @@ echo "Finished at:" >> ${subject_dir}/T1T2_log.txt
 date +"%F %T" >> ${subject_dir}/T1T2_log.txt
 
 echo ""
+
+# Restore the original LC_NUMERIC setting
+export LC_NUMERIC=$original_lc_numeric
