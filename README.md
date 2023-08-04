@@ -18,7 +18,7 @@ This is a fully automated script to derive the standardized T1-weighted / T2-wei
 
 The script uses commands from Advanced Normalization Tools (ANTs) and FMRIB Software Library (FSL).
 
-- To install ANTs, follow instructions the [ANTs github](http://stnava.github.io/ANTs/).
+- To install ANTs, follow instructions on the [ANTs github](http://stnava.github.io/ANTs/).
 - To install FSL, follow instructions on the [FSL wiki](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation).
 
 
