@@ -70,7 +70,6 @@ This script is meant to be fast and easy to use. In research settings, more elab
 - [Freesurfer](https://surfer.nmr.mgh.harvard.edu/) recon-all (instead of FSL SIENAX and FIRST) for more fine-grained and precise segmentation.
 - For clinical samples: Automatic lesion segmentation, e.g. using [LST](https://www.statistical-modelling.de/lst.html).
 
-
 [^1]: Cooper, G., Finke, C., Chien, C., Brandt, A. U., Asseyer, S., Ruprecht, K., Bellmann-Strobl, J., Paul, F., & Scheel, M. (2019). Standardization of T1w/T2w Ratio Improves Detection of Tissue Damage in Multiple Sclerosis. Frontiers in Neurology, 10, 334. (https://doi.org/10.3389/fneur.2019.00334)
 
 [^2]: Misaki, M., Savitz, J., Zotev, V., Phillips, R., Yuan, H., Young, K. D., Drevets, W. C., & Bodurka, J. (2015). Contrast enhancement by combining T1- and T2-weighted structural brain MR Images: Contrast Enhancement with T1w and T2w MRI. Magnetic Resonance in Medicine, 74(6), 1609–1620. (https://doi.org/10.1002/mrm.25560)
