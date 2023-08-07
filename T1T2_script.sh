@@ -14,10 +14,6 @@ echo ""
 echo "Please provide file paths and choose ROIs below."
 echo ""
 
-# subject_dir="/mnt/HDD/T1T2_pipeline/test_all"
-# t1_file="LE_NMDA_117_1_T1w.nii"
-# t2_file="LE_NMDA_117_1_T2w.nii"
-
 
 # Prompt for subject directory path
 read -p "Path to subject directory: " subject_dir
