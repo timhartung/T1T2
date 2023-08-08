@@ -2,7 +2,7 @@
 
 **by Tim J. Hartung, Darko Komnenic, Graham Cooper, Valentin Jünger, Michael Scheel and Carsten Finke**
 
-*Charité - Universitätsmedizin Berlin*
+*Cognitive Neurology Lab, Charité - Universitätsmedizin Berlin*
 
 *August 2023*
   
