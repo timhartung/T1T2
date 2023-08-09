@@ -1,4 +1,4 @@
-T1T2 Processing Script by Tim Hartung, 
+T1T2 Processing Script by Tim J. Hartung, Darko Komnenic, Graham Cooper, Valentin Jünger, Michael Scheel and Carsten Finke
 Copyright (C) 2023  Tim Hartung
 
 This program is free software: you can redistribute it and/or modify
