@@ -41,10 +41,10 @@ The script extracts T1T2 values for specified regions from a single human subjec
 
 ## 3. Usage
 
-1. On a Linux or Mac OS system, open a terminal and navigate to the directory where the script is located:
-`cd /path/to/script/location`
-2. Execute the script:
-`bash T1T2_script.sh`
+1. On a Linux or Mac OS system, open a terminal and navigate to the directory where the script is located: <br>
+  `cd /path/to/script/location`
+2. Execute the script: <br>
+  `bash T1T2_script.sh`
 3. You will then be prompted to:
 
     1. provide the path to the subject directory
